@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Tanjung Makmur - Pedamaran Timur</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f5f7fa; color: #333; }
+        header { background: linear-gradient(90deg, #0066cc, #00a86b); color: white; padding: 20px 0; text-align: center; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: 500; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h1, h2, h3 { color: #0066cc; }
+        .hero { background: url('https://via.placeholder.com/1200x500?text=Desa+Tanjung+Makmur') center/cover no-repeat; color: white; text-shadow: 1px 1px 4px black; padding: 100px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5em; }
+        .card { background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 20px; margin-bottom: 20px; }
+        .grid { display: grid; gap: 20px; }
+        .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+        .gallery img { width: 100%; border-radius: 8px; }
+        footer { background: #003366; color: white; text-align: center; padding: 15px; font-size: 0.9em; }
+        form input, form textarea { width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #ccc; border-radius: 6px; }
+        form button { background: #00a86b; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; }
+        form button:hover { background: #007a50; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Desa Tanjung Makmur</h1>
+    <p>Kecamatan Pedamaran Timur</p>
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#potensi">Potensi</a>
+        <a href="#berita">Berita</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Selamat Datang di Website Desa Tanjung Makmur</h1>
+    <p>Informasi, pelayanan, dan potensi terbaik untuk masyarakat</p>
+</div>
+
+<section id="profil">
+    <h2>Profil Desa</h2>
+    <div class="card">
+        <p><strong>Desa Tanjung Makmur</strong> terletak di Kecamatan Pedamaran Timur. Desa ini memiliki masyarakat yang ramah, dengan perekonomian berbasis pertanian, perkebunan, dan UMKM.</p>
+        <p>Kepala Desa saat ini adalah <strong>Bpk. Teguh Sugiarto, S.T.</strong></p>
+    </div>
+</section>
+
+<section id="potensi">
+    <h2>Potensi Desa</h2>
+    <div class="grid grid-2">
+        <div class="card">
+            <h3>Perkebunan Kelapa Sawit</h3>
+            <p>Perkebunan kelapa sawit menjadi sumber utama pendapatan warga desa. Hasil produksi dikelola oleh kelompok tani dan koperasi setempat.</p>
+        </div>
+        <div class="card">
+            <h3>Usaha Mikro, Kecil, dan Menengah (UMKM)</h3>
+            <p>Warga desa aktif mengembangkan berbagai produk seperti kerajinan, makanan olahan, dan jasa kreatif untuk meningkatkan kesejahteraan ekonomi.</p>
+        </div>
+    </div>
+</section>
+
+<section id="berita">
+    <h2>Berita & Pengumuman</h2>
+    <div class="card">
+        <h3>Gotong Royong Bersih Desa</h3>
+        <p>Seluruh warga diharapkan berpartisipasi dalam kegiatan bersih desa pada hari Minggu, 20 Januari 2026.</p>
+    </div>
+    <div class="card">
+        <h3>Program Bantuan UMKM</h3>
+        <p>Pemerintah desa membuka pendaftaran bantuan modal bagi pelaku usaha mikro hingga 10 Februari 2026.</p>
+    </div>
+</section>
+
+<section id="galeri">
+    <h2>Galeri Desa</h2>
+    <div class="grid grid-2 gallery">
+        <img src="https://via.placeholder.com/500x300?text=Balai+Desa" alt="Balai Desa">
+        <img src="https://via.placeholder.com/500x300?text=Perkebunan+Sawit" alt="Perkebunan Sawit">
+        <img src="https://via.placeholder.com/500x300?text=UMKM" alt="UMKM Desa">
+        <img src="https://via.placeholder.com/500x300?text=Kegiatan+Warga" alt="Kegiatan Warga">
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak & Lokasi</h2>
+    <div class="grid grid-2">
+        <div class="card">
+            <p><strong>Kantor Desa:</strong> Jl. Merdeka No.1, Tanjung Makmur, Pedamaran Timur</p>
+            <p><strong>Telepon:</strong> 0851-9144-5513</p>
+            <p><strong>Email:</strong> TanjungMakmurOke@gmail.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="card">
+            <form>
+                <label>Nama:</label>
+                <input type="text" placeholder="Nama Anda">
+                <label>Email / Telepon:</label>
+                <input type="text" placeholder="Email atau No. HP">
+                <label>Pesan:</label>
+                <textarea rows="4" placeholder="Tulis pesan Anda..."></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Desa Tanjung Makmur — Pedamaran Timur. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
